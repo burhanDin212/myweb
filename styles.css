@@ -1,6 +1,4 @@
-body{
-    background-color: pink;
-}
+
 /* .box {
 
     border: 1px solid black;
@@ -58,9 +56,10 @@ body{
     border: 1px solid black;
     height:13.5cm;
     width: 25cm;
-    margin: 50px 0px 0px 150px;
+    margin: 0px 0px -30px 3px;
     display: inline-block;
     background-color: white;
+   
 }
 .two{
     border: 1px solid black;
@@ -68,12 +67,75 @@ body{
     width: 320px;
     padding-bottom: -30px;
     padding-top: -30;
-    margin: 0px 0px 0px 90px;
+    margin: -500px 0px 0px 59px;
     box-shadow: 5px 5px 40px 15px rgb(140, 140, 140);
-    
+   
 }
 .img{
     height: 555px;
     width: 340px;
-    margin: -20px 0px 10px -2px;
-} 
+    margin: -10px 0px 10px -10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@200&family=Koulen&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans Condensed' ;
+}
+body{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 198, 221);
+  /* padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 120px;   */
+  padding-top: 60px;
+ 
+  
+  
+}
+.container{
+  background-color: white;
+  /* padding: 40px 50px 40px 40px; */
+}
+.container .main-title{
+  font-size: 30px;
+  font-weight: 500px;
+  /* margin-bottom: 20px; */
+}
+.list{
+  width: 400px;
+  margin: 12px 12px 12px  17px;
+  font-size: 20px;
+  
+}
+.f{
+  margin-top: 10px;
+}
+ .list label{
+  cursor: pointer;
+  
+}
+
+.cloud{
+    margin-left: 8px;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: palevioletred;
+
+}
+.user{
+    color: purple;
+}
+  /* .list .indi{
+      position: absolute;
+      height: 60px;
+      width: 100%;
+      left: 0;
+      background: blue;
+  } */
